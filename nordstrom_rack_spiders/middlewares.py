@@ -10,6 +10,7 @@ from itemadapter import is_item, ItemAdapter
 from scrapy.http import Response, Request
 
 from proxy_manager import proxies_generator
+from token_manager import tokens_generator
 
 
 class NordstromRackSpidersSpiderMiddleware:
@@ -140,7 +141,7 @@ class CustomRetryMiddleware(RetryMiddleware):
         try:
             if response.status == 429:
 
-                new_token = next(spider.tokens_generator)
+                new_token = next(tokens_generator)
                 new_token = bytes(new_token, 'utf-8')
                 new_headers = {b'x-a8s6k1ns-e': new_token}
 
@@ -156,7 +157,7 @@ class CustomRetryMiddleware(RetryMiddleware):
 
                     threshold = allowed_retries / current_retries
                     if threshold < 2:
-                        new_proxy = next(spider.proxies_generator)
+                        new_proxy = next(proxies_generator)
                         request.meta['proxy'] = new_proxy
                         print(f'changed poxy for {product_api_id=} because there was {current_retries} fails out of {allowed_retries}')
                     if current_retries >= allowed_retries:

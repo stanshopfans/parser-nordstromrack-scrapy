@@ -11,51 +11,8 @@ from scrapy.http import Response
 
 from proxy_manager import proxies_generator
 
-# from twisted.web.http_headers import Headers as TwistedHeaders
-#
-# TwistedHeaders._caseMappings.update({
-#     b'apikey': b'apikey',
-#     b'x-product': b'x-product',
-#     b'x-service': b'x-service',
-# })
-
-from copy import deepcopy
-from scrapy.http import Headers
-class Headers2(Headers):
-
-    def __init__(self, seq=None, encoding='utf-8'):
-
-        Headers.__init__(self, seq, encoding)
-
-    def normkey(self, key):
-        """Method to normalize dictionary key access"""
-        return key.lower()
-
-    def normvalue(self, value):
-        """Normalize values to bytes"""
-        # print(value)
-        # print(type(value))
-        # if isinstance(value, list):
-        #     if isinstance(value[0], bytes):
-        #         print('aaaa')
-        #         print(value[0])
-        #         return value[0]
-        if value is None:
-            value = []
-        elif isinstance(value, (str, bytes)):
-            value = [value]
-        elif not hasattr(value, '__iter__'):
-            value = [value]
-
-        return [self._tobytes(x) for x in value]
-
-
-
-
-
-
 class CategoriesSpider(scrapy.Spider):
-    name = "categories"
+    name = "categories"  # Spider name to run from CLI and middleware
 
     api_browse_path = 'https://api.nordstrom.com/polaris/v2/browse'
     default_products_limit = 100  # Cannot get more than 100 products per request
@@ -172,3 +129,23 @@ class CategoriesSpider(scrapy.Spider):
                 request.meta['return_data'] = return_data
 
                 yield request
+
+
+    # def closed(self, reason):
+    #     # will be called when the crawler process ends
+    #     # any code
+    #     # do something with collected data
+    #     with open('category.json', 'r') as file:
+    #         data = json.loads(file.read())
+    #
+    #     return_dict = {}
+    #     for product in data:
+    #         if product['product_id'] in return_dict.keys():
+    #             return_dict[product['product_id']]['product_categories'].append(product['product_category'])
+    #
+    #         else:
+    #             return_dict[product['product_id']] = {'product_categories': [product['product_category']]}
+    #
+    #
+    #     with open('processed_items_mapping.json', 'w+') as file:
+    #         file.write(json.dumps(return_dict, indent=4))
