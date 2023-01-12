@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "scrapy-nordstromrack"
+version = "0.1.0"
+description = ""
+authors = ["stan <stan@shopfans.ru>"]
+readme = "README.md"
+packages = [{include = "scrapy_nordstromrack"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+#https://stackoverflow.com/questions/47877205/cant-install-scrapy-with-python-3
+twisted-iocpsupport = { file = "./twisted_iocpsupport-1.0.2-cp311-cp311-win_amd64.whl" }
+scrapy = "^2.7.1"
+bs4 = "^0.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
