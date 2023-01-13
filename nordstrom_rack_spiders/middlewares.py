@@ -132,7 +132,7 @@ class CustomRetryMiddleware(RetryMiddleware):
         product_api_id = request.meta['product_api_id']
 
         if response.status == 403:
-            new_proxy = next(spider.proxies_generator)
+            new_proxy = next(proxies_generator)
             request.meta['proxy'] = new_proxy
             print(f'changed proxy for {product_api_id=} because 403')
             return self._retry(request, "error 403", spider)
@@ -147,13 +147,13 @@ class CustomRetryMiddleware(RetryMiddleware):
 
                 request.headers.update(new_headers)
                 request.meta['request_count'] += 1
-
-                print(f'changed token for {product_api_id=}')
+                current_retries = request.meta.get('retry_times', 1)
+                print(f'changed token for {product_api_id=} {current_retries} times')
 
                 custom_settings = hasattr(spider, 'custom_settings')
                 if custom_settings:
                     allowed_retries = spider.custom_settings.get('RETRY_TIMES', 0)
-                    current_retries = request.meta.get('retry_times', 1)
+
 
                     threshold = allowed_retries / current_retries
                     if threshold < 2:

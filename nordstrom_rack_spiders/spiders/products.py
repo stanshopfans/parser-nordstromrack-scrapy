@@ -25,7 +25,7 @@ class ProductsSpider(scrapy.Spider):
 
     name = "products"
     api_product_offer_url = "https://api.nordstrom.com/offer"
-    limit_urls = 1
+    limit_urls = None
 
     handle_httpstatus_list = [429, 9999]
     failed_urls = []
@@ -94,7 +94,7 @@ class ProductsSpider(scrapy.Spider):
             request.meta['categories'] = values['product_categories']
 
             # print(request.__dict__)
-            print(url)
+            # print(url)
             yield request
 
     def parse(self, response: Response):

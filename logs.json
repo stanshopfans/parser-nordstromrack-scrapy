@@ -1,4 +1,1985 @@
 {
-    "total_time": 3.0949738025665283,
-    "failed_urls": []
+    "total_time": 11015.908210754395,
+    "failed_urls": [
+        {
+            "product_api_id": 6265840,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Sports bras",
+                "Activewear -> All",
+                "Activewear -> Activities",
+                "Activewear",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Plus-size",
+                "Women -> Clothing",
+                "Women -> Lingerie",
+                "Women -> Lingerie -> Bras",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6265840?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6265840"
+        },
+        {
+            "product_api_id": 7001609,
+            "categories": [
+                "Men -> Clothing -> Workout & gym -> Fleece",
+                "Activewear -> All",
+                "Men -> Clothing -> Workout & gym",
+                "Activewear -> Activities",
+                "Activewear",
+                "Activewear -> Men",
+                "Men -> Clothing -> Sweatshirts -> Zip-up",
+                "Men -> Clothing -> Sweatshirts",
+                "Men -> Clothing -> Sweatshirts -> Fleece",
+                "Men -> Clothing",
+                "Men"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7001609?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7001609"
+        },
+        {
+            "product_api_id": 5771148,
+            "categories": [
+                "Men -> Clothing -> Workout & gym -> Fleece",
+                "Activewear -> All",
+                "Men -> Clothing -> Workout & gym",
+                "Activewear -> Men",
+                "Activewear",
+                "Activewear -> Activities",
+                "Men -> Clothing -> Sweatshirts -> Fleece",
+                "Men -> Clothing -> Sweatshirts",
+                "Men -> Clothing",
+                "Men"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/5771148?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=5771148"
+        },
+        {
+            "product_api_id": 7034835,
+            "categories": [
+                "Men -> Clothing -> Workout & gym -> Fleece",
+                "Activewear -> All",
+                "Men -> Clothing -> Workout & gym",
+                "Activewear -> Men",
+                "Activewear -> Activities",
+                "Activewear",
+                "Men -> Clothing -> Sweatshirts",
+                "Men -> Clothing -> Sweatshirts -> Fleece",
+                "Men -> Clothing",
+                "Men"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7034835?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7034835"
+        },
+        {
+            "product_api_id": 7280148,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Jackets & hoodies",
+                "Activewear -> All",
+                "Activewear",
+                "Activewear -> Activities",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing",
+                "Women -> Clothing -> Tops -> Sweatshirts & hoodies",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7280148?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7280148"
+        },
+        {
+            "product_api_id": 6043727,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Jackets & hoodies",
+                "Activewear -> All",
+                "Activewear",
+                "Activewear -> Activities",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing",
+                "Women -> Clothing -> Tops -> Sweatshirts & hoodies",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6043727?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6043727"
+        },
+        {
+            "product_api_id": 7291161,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Jackets & hoodies",
+                "Activewear -> All",
+                "Activewear",
+                "Activewear -> Activities",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing",
+                "Women -> Clothing -> Tops -> Sweatshirts & hoodies",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7291161?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7291161"
+        },
+        {
+            "product_api_id": 6616023,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Jackets & hoodies",
+                "Activewear -> All",
+                "Activewear -> Activities",
+                "Activewear",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Tops -> Sweatshirts & hoodies",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6616023?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6616023"
+        },
+        {
+            "product_api_id": 7273960,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Jackets & hoodies",
+                "Activewear -> All",
+                "Activewear -> Activities",
+                "Activewear",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Tops -> Sweatshirts & hoodies",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7273960?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7273960"
+        },
+        {
+            "product_api_id": 5619729,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Jackets & hoodies",
+                "Activewear -> All",
+                "Activewear -> Activities",
+                "Activewear",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Tops -> Sweatshirts & hoodies",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/5619729?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=5619729"
+        },
+        {
+            "product_api_id": 6913922,
+            "categories": [
+                "Men -> Clothing -> Workout & gym -> Jackets",
+                "Activewear -> All",
+                "Activewear -> Activities",
+                "Activewear",
+                "Men -> Clothing -> Workout & gym",
+                "Activewear -> Men",
+                "Men -> Clothing",
+                "Men -> Clothing -> Coats & jackets -> Down & parkas",
+                "Men -> Clothing -> Coats & jackets",
+                "Men -> Clothing -> Coats & jackets -> Performance & fleece",
+                "Men"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6913922?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6913922"
+        },
+        {
+            "product_api_id": 7292123,
+            "categories": [
+                "Men -> Clothing -> Workout & gym -> Jackets",
+                "Activewear -> All",
+                "Activewear -> Activities",
+                "Activewear",
+                "Men -> Clothing -> Workout & gym",
+                "Activewear -> Men",
+                "Men -> Clothing",
+                "Men -> Clothing -> Coats & jackets -> Vests",
+                "Men -> Clothing -> Coats & jackets -> Performance & fleece",
+                "Men -> Clothing -> Coats & jackets",
+                "Men"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7292123?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7292123"
+        },
+        {
+            "product_api_id": 6437969,
+            "categories": [
+                "Men -> Clothing -> Workout & gym -> Jackets",
+                "Activewear -> All",
+                "Men -> Clothing -> Workout & gym",
+                "Activewear -> Activities",
+                "Activewear",
+                "Activewear -> Men",
+                "Men -> Clothing",
+                "Men -> Clothing -> Coats & jackets -> Vests",
+                "Men -> Clothing -> Coats & jackets -> Performance & fleece",
+                "Men -> Clothing -> Coats & jackets",
+                "Men"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6437969?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6437969"
+        },
+        {
+            "product_api_id": 6619320,
+            "categories": [
+                "Men -> Clothing -> Workout & gym -> Jackets",
+                "Activewear -> All",
+                "Men -> Clothing -> Workout & gym",
+                "Activewear -> Men",
+                "Activewear -> Activities",
+                "Activewear",
+                "Men -> Clothing",
+                "Men -> Clothing -> Coats & jackets -> Performance & fleece",
+                "Men -> Clothing -> Coats & jackets",
+                "Men"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6619320?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6619320"
+        },
+        {
+            "product_api_id": 6420019,
+            "categories": [
+                "Men -> Clothing -> Workout & gym -> Jackets",
+                "Activewear -> All",
+                "Men -> Clothing -> Workout & gym",
+                "Activewear -> Men",
+                "Activewear -> Activities",
+                "Activewear",
+                "Men -> Clothing",
+                "Men -> Clothing -> Coats & jackets -> Performance & fleece",
+                "Men -> Clothing -> Coats & jackets",
+                "Men"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6420019?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6420019"
+        },
+        {
+            "product_api_id": 6483288,
+            "categories": [
+                "Men -> Clothing -> Workout & gym -> Jackets",
+                "Activewear -> All",
+                "Men -> Clothing -> Workout & gym",
+                "Activewear -> Men",
+                "Activewear",
+                "Activewear -> Activities",
+                "Men -> Clothing",
+                "Men -> Clothing -> Coats & jackets -> Performance & fleece",
+                "Men -> Clothing -> Coats & jackets",
+                "Men"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6483288?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6483288"
+        },
+        {
+            "product_api_id": 7135255,
+            "categories": [
+                "Men -> Clothing -> Workout & gym -> Jackets",
+                "Activewear -> All",
+                "Men -> Clothing -> Workout & gym",
+                "Activewear -> Men",
+                "Activewear",
+                "Activewear -> Activities",
+                "Men -> Clothing",
+                "Men -> Clothing -> Coats & jackets -> Down & parkas",
+                "Men -> Clothing -> Coats & jackets -> Performance & fleece",
+                "Men -> Clothing -> Coats & jackets",
+                "Men"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7135255?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7135255"
+        },
+        {
+            "product_api_id": 6655171,
+            "categories": [
+                "Men -> Clothing -> Workout & gym -> Jackets",
+                "Activewear -> All",
+                "Men -> Clothing -> Workout & gym",
+                "Activewear -> Men",
+                "Activewear -> Activities",
+                "Activewear",
+                "Men -> Clothing",
+                "Men -> Clothing -> Coats & jackets -> Performance & fleece",
+                "Men -> Clothing -> Coats & jackets",
+                "Men"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6655171?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6655171"
+        },
+        {
+            "product_api_id": 7152175,
+            "categories": [
+                "Men -> Clothing -> Workout & gym -> Jackets",
+                "Activewear -> All",
+                "Men -> Clothing -> Workout & gym",
+                "Activewear -> Men",
+                "Activewear -> Activities",
+                "Activewear",
+                "Men -> Clothing -> Coats & jackets -> Down & parkas",
+                "Men -> Clothing -> Coats & jackets -> Performance & fleece",
+                "Men -> Clothing",
+                "Men -> Clothing -> Coats & jackets",
+                "Men"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7152175?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7152175"
+        },
+        {
+            "product_api_id": 6186819,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear",
+                "Activewear -> Activities",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing",
+                "Women -> Clothing -> Bottoms",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6186819?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6186819"
+        },
+        {
+            "product_api_id": 6427152,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear",
+                "Activewear -> Activities",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing",
+                "Women -> Clothing -> Bottoms",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6427152?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6427152"
+        },
+        {
+            "product_api_id": 7072059,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear",
+                "Activewear -> Activities",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing -> Bottoms",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7072059?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7072059"
+        },
+        {
+            "product_api_id": 6040292,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear",
+                "Activewear -> Activities",
+                "Women -> Clothing -> Activewear",
+                "Women -> Clothing -> Activewear -> Capris",
+                "Activewear -> Women",
+                "Women -> Clothing",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing -> Bottoms",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6040292?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6040292"
+        },
+        {
+            "product_api_id": 5757174,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear",
+                "Activewear -> Activities",
+                "Women -> Clothing -> Activewear",
+                "Women -> Clothing -> Activewear -> Capris",
+                "Activewear -> Women",
+                "Women -> Clothing",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing -> Bottoms",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/5757174?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=5757174"
+        },
+        {
+            "product_api_id": 5987891,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear",
+                "Activewear -> Activities",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing -> Bottoms",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/5987891?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=5987891"
+        },
+        {
+            "product_api_id": 6835797,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear -> Activities",
+                "Activewear",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing -> Bottoms",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6835797?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6835797"
+        },
+        {
+            "product_api_id": 5984373,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear -> Activities",
+                "Activewear",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing -> Bottoms",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/5984373?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=5984373"
+        },
+        {
+            "product_api_id": 7295482,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear -> Activities",
+                "Activewear",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing -> Bottoms",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7295482?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7295482"
+        },
+        {
+            "product_api_id": 6535239,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear -> Activities",
+                "Activewear",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing -> Bottoms",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6535239?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6535239"
+        },
+        {
+            "product_api_id": 7293323,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear -> Activities",
+                "Activewear",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing -> Bottoms",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7293323?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7293323"
+        },
+        {
+            "product_api_id": 7068777,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear -> Activities",
+                "Activewear",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing -> Bottoms",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7068777?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7068777"
+        },
+        {
+            "product_api_id": 5476456,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear -> Activities",
+                "Activewear",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing -> Bottoms",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/5476456?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=5476456"
+        },
+        {
+            "product_api_id": 7286611,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear -> Activities",
+                "Activewear",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing -> Bottoms",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7286611?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7286611"
+        },
+        {
+            "product_api_id": 7287876,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear -> Activities",
+                "Activewear",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing",
+                "Women -> Clothing -> Bottoms",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7287876?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7287876"
+        },
+        {
+            "product_api_id": 7283596,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear -> Activities",
+                "Activewear",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing -> Bottoms",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7283596?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7283596"
+        },
+        {
+            "product_api_id": 4660742,
+            "categories": [
+                "Kids -> Kids-shoes -> Boots-all",
+                "Kids -> Girls' shoes",
+                "Kids -> Girls' shoes -> Boots & booties",
+                "Kids -> Kids-shoes",
+                "Shoes",
+                "Kids"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/4660742?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=4660742"
+        },
+        {
+            "product_api_id": 7112498,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear -> Activities",
+                "Activewear",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing -> Bottoms",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7112498?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7112498"
+        },
+        {
+            "product_api_id": 6066231,
+            "categories": [
+                "Kids -> Kids-shoes -> Boots-all",
+                "Kids -> Girls' shoes",
+                "Kids -> Girls' shoes -> Boots & booties -> Winter & snow",
+                "Kids -> Girls' shoes -> Boots & booties",
+                "Kids -> Kids-shoes",
+                "Shoes",
+                "Kids"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6066231?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6066231"
+        },
+        {
+            "product_api_id": 5565792,
+            "categories": [
+                "Kids -> Kids-shoes -> Boots-all",
+                "Kids -> Boys' shoes",
+                "Kids -> Boys' shoes -> Boots -> Rain & winter",
+                "Kids -> Boys' shoes -> Boots -> Casual",
+                "Kids -> Girls' shoes",
+                "Kids -> Girls' shoes -> Boots & booties -> Winter & snow",
+                "Kids -> Girls' shoes -> Boots & booties",
+                "Kids -> Kids-shoes",
+                "Shoes",
+                "Kids -> Boys' shoes -> Boots",
+                "Kids -> Girls' shoes -> Boots & booties -> Rain",
+                "Kids"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/5565792?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=5565792"
+        },
+        {
+            "product_api_id": 6162078,
+            "categories": [
+                "Kids -> Kids-shoes -> Boots-all",
+                "Kids -> Girls' shoes -> Boots & booties -> Winter & snow",
+                "Kids -> Girls' shoes",
+                "Kids -> Girls' shoes -> Boots & booties",
+                "Kids -> Kids-shoes",
+                "Shoes",
+                "Kids"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6162078?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6162078"
+        },
+        {
+            "product_api_id": 6605424,
+            "categories": [
+                "Kids -> Kids-shoes -> Boots-all",
+                "Kids -> Girls' shoes -> Boots & booties -> Winter & snow",
+                "Kids -> Girls' shoes",
+                "Kids -> Girls' shoes -> Boots & booties",
+                "Kids -> Girls-shoes -> Baby",
+                "Kids -> Kids-shoes",
+                "Shoes",
+                "Kids -> Girls' shoes -> Boots & booties -> Rain",
+                "Kids"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6605424?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6605424"
+        },
+        {
+            "product_api_id": 7052560,
+            "categories": [
+                "Kids -> Kids-shoes -> Boots-all",
+                "Kids -> Girls' shoes -> Boots & booties -> Winter & snow",
+                "Kids -> Girls' shoes",
+                "Kids -> Girls' shoes -> Boots & booties",
+                "Kids -> Kids-shoes",
+                "Shoes",
+                "Kids -> Girls' shoes -> Boots & booties -> Rain",
+                "Kids"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7052560?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7052560"
+        },
+        {
+            "product_api_id": 7054441,
+            "categories": [
+                "Kids -> Kids-shoes -> Boots-all",
+                "Kids -> Girls' shoes",
+                "Kids -> Girls' shoes -> Boots & booties",
+                "Kids -> Kids-shoes",
+                "Kids -> Girls' shoes -> Boots & booties -> Fashion",
+                "Shoes",
+                "Kids"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7054441?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7054441"
+        },
+        {
+            "product_api_id": 6222942,
+            "categories": [
+                "Kids -> Kids-shoes -> Boots-all",
+                "Kids -> Girls' shoes -> Boots & booties -> Winter & snow",
+                "Kids -> Girls' shoes",
+                "Kids -> Girls' shoes -> Boots & booties",
+                "Kids -> Kids-shoes",
+                "Shoes",
+                "Kids"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6222942?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6222942"
+        },
+        {
+            "product_api_id": 7222131,
+            "categories": [
+                "Kids -> Kids-shoes -> Boots-all",
+                "Kids -> Girls' shoes",
+                "Kids -> Girls' shoes -> Boots & booties",
+                "Kids -> Kids-shoes",
+                "Kids -> Girls' shoes -> Boots & booties -> Fashion",
+                "Shoes",
+                "Kids"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7222131?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7222131"
+        },
+        {
+            "product_api_id": 6684174,
+            "categories": [
+                "Kids -> Kids-shoes -> Boots-all",
+                "Kids -> Girls' shoes",
+                "Kids -> Girls' shoes -> Boots & booties",
+                "Kids -> Kids-shoes",
+                "Kids -> Girls' shoes -> Boots & booties -> Fashion",
+                "Shoes",
+                "Kids"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6684174?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6684174"
+        },
+        {
+            "product_api_id": 6683869,
+            "categories": [
+                "Kids -> Kids-shoes -> Boots-all",
+                "Kids -> Boys' shoes",
+                "Kids -> Boys' shoes -> Boots -> Casual",
+                "Kids -> Kids-shoes",
+                "Kids -> Boys' shoes -> Boots",
+                "Shoes",
+                "Kids"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6683869?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6683869"
+        },
+        {
+            "product_api_id": 6070369,
+            "categories": [
+                "Kids -> Kids-shoes -> Boots-all",
+                "Kids -> Girls' shoes",
+                "Kids -> Girls' shoes -> Boots & booties",
+                "Kids -> Kids-shoes",
+                "Shoes",
+                "Kids"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6070369?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6070369"
+        },
+        {
+            "product_api_id": 6172826,
+            "categories": [
+                "Kids -> Kids-shoes -> Boots-all",
+                "Kids -> Girls' shoes",
+                "Kids -> Girls' shoes -> Boots & booties",
+                "Kids -> Girls-shoes -> Baby",
+                "Kids -> Kids-shoes",
+                "Kids -> Girls' shoes -> Boots & booties -> Fashion",
+                "Shoes",
+                "Kids"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6172826?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6172826"
+        },
+        {
+            "product_api_id": 7031918,
+            "categories": [
+                "Kids -> Girl -> Coats-and-jackets",
+                "Kids -> Baby",
+                "Kids -> Baby girl",
+                "Kids -> Baby girl -> Coats & jackets",
+                "Kids -> Girl",
+                "Kids"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7031918?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7031918"
+        },
+        {
+            "product_api_id": 6634594,
+            "categories": [
+                "Activewear -> All",
+                "Activewear",
+                "Activewear -> Activities",
+                "Activewear -> Kids -> Shoes",
+                "Kids -> Boys' shoes -> Sneakers -> Athletic",
+                "Kids -> Girls' shoes -> Sneakers -> Athletic",
+                "Activewear -> Kids",
+                "Kids -> Boys' shoes",
+                "Kids -> Boys' shoes -> Sneakers",
+                "Kids -> Girls' shoes",
+                "Kids -> Girls' shoes -> Sneakers",
+                "Kids -> Kids-shoes",
+                "Kids -> Kids-shoes -> Sneakers-all",
+                "Shoes",
+                "Kids"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6634594?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6634594"
+        },
+        {
+            "product_api_id": 7128100,
+            "categories": [
+                "Activewear -> All",
+                "Activewear",
+                "Activewear -> Activities",
+                "Women -> Clothing -> Activewear",
+                "Women -> Clothing -> Activewear -> Joggers-and-sweatpants",
+                "Activewear -> Women",
+                "Women -> Clothing",
+                "Women -> Clothing -> Bottoms",
+                "Women -> Clothing -> Pants & leggings -> Joggers & sweatpants",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7128100?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7128100"
+        },
+        {
+            "product_api_id": 6835482,
+            "categories": [
+                "Activewear -> All",
+                "Activewear",
+                "Activewear -> Activities",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing",
+                "Women -> Clothing -> Coats & jackets",
+                "Women -> Clothing -> Coats & jackets -> Jackets",
+                "Women -> Clothing -> Coat & jackets -> Denim",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6835482?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6835482"
+        },
+        {
+            "product_api_id": 5743390,
+            "categories": [
+                "Activewear -> All",
+                "Activewear",
+                "Activewear -> Activities",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing",
+                "Women -> Clothing -> Skirts",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/5743390?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=5743390"
+        },
+        {
+            "product_api_id": 6999494,
+            "categories": [
+                "Activewear -> All",
+                "Activewear",
+                "Activewear -> Activities",
+                "Women -> Shoes -> Athletic",
+                "Women -> Shoes -> Athletic -> Lifestyle",
+                "Activewear -> Women",
+                "Women -> Shoes -> Sneakers",
+                "Women -> Shoes -> Sneakers -> Slip-on",
+                "Women -> Shoes -> Sneakers -> Lifestyle",
+                "Shoes",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6999494?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6999494"
+        },
+        {
+            "product_api_id": 5865038,
+            "categories": [
+                "Activewear -> All",
+                "Activewear",
+                "Activewear -> Activities",
+                "Women -> Shoes -> Athletic",
+                "Activewear -> Women",
+                "Women -> Shoes -> Sneakers",
+                "Women -> Shoes",
+                "Women -> Shoes -> Sneakers -> Running & training",
+                "Shoes",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/5865038?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=5865038"
+        },
+        {
+            "product_api_id": 7004691,
+            "categories": [
+                "Activewear -> All",
+                "Activewear",
+                "Activewear -> Activities",
+                "Women -> Shoes -> Athletic",
+                "Women -> Shoes -> Athletic -> Lifestyle",
+                "Activewear -> Women",
+                "Women -> Shoes -> Sneakers",
+                "Women -> Shoes",
+                "Women -> Shoes -> Sneakers -> Lifestyle",
+                "Shoes",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7004691?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7004691"
+        },
+        {
+            "product_api_id": 7235608,
+            "categories": [
+                "Activewear -> All",
+                "Activewear",
+                "Activewear -> Activities",
+                "Activewear -> Kids -> Shoes",
+                "Kids -> Boys' shoes -> Sneakers -> Athletic",
+                "Kids -> Girls' shoes -> Sneakers -> Athletic",
+                "Activewear -> Kids",
+                "Kids -> Boys' shoes",
+                "Kids -> Boys' shoes -> Sneakers",
+                "Kids -> Girls' shoes",
+                "Kids -> Girls' shoes -> Sneakers",
+                "Kids -> Kids-shoes",
+                "Kids -> Kids-shoes -> Sneakers-all",
+                "Shoes",
+                "Kids"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7235608?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7235608"
+        },
+        {
+            "product_api_id": 6480759,
+            "categories": [
+                "Kids -> Boy -> Coats-and-jackets",
+                "Kids -> Baby",
+                "Kids -> Baby boy",
+                "Kids -> Baby boy -> Coats & jackets",
+                "Kids -> Boy",
+                "Kids"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6480759?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6480759"
+        },
+        {
+            "product_api_id": 7269876,
+            "categories": [
+                "Kids -> Boy -> Coats-and-jackets",
+                "Kids -> Boy",
+                "Kids -> Boy -> Coats-and-jackets -> Puffer-parka-quilted",
+                "Kids"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7269876?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7269876"
+        },
+        {
+            "product_api_id": 7174899,
+            "categories": [
+                "Kids -> Boy -> Coats-and-jackets",
+                "Kids -> Boy",
+                "Kids -> Boy -> Coats-and-jackets -> Puffer-parka-quilted",
+                "Kids"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7174899?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7174899"
+        },
+        {
+            "product_api_id": 7159592,
+            "categories": [
+                "Kids -> Boy -> Coats-and-jackets",
+                "Kids -> Boy",
+                "Kids -> Boy -> Coats-and-jackets -> Puffer-parka-quilted",
+                "Kids"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7159592?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7159592"
+        },
+        {
+            "product_api_id": 7160122,
+            "categories": [
+                "Kids -> Boy -> Coats-and-jackets",
+                "Kids -> Boy",
+                "Kids -> Boy -> Coats-and-jackets -> Puffer-parka-quilted",
+                "Kids"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7160122?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7160122"
+        },
+        {
+            "product_api_id": 7257560,
+            "categories": [
+                "Kids -> Boy -> Coats-and-jackets",
+                "Kids -> Boy",
+                "Kids"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7257560?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7257560"
+        },
+        {
+            "product_api_id": 6005250,
+            "categories": [
+                "Kids -> Boy -> Coats-and-jackets",
+                "Kids -> Boy",
+                "Kids"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6005250?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6005250"
+        },
+        {
+            "product_api_id": 7165858,
+            "categories": [
+                "Kids -> Boy -> Coats-and-jackets",
+                "Kids -> Boy -> Coats-and-jackets -> Puffer-parka-quilted",
+                "Kids -> Boy",
+                "Kids"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7165858?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7165858"
+        },
+        {
+            "product_api_id": 7089092,
+            "categories": [
+                "Kids -> Boy -> Coats-and-jackets",
+                "Kids -> Boy -> Coats-and-jackets -> Lightweight",
+                "Kids -> Boy",
+                "Kids"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7089092?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7089092"
+        },
+        {
+            "product_api_id": 7181371,
+            "categories": [
+                "Kids -> Boy -> Coats-and-jackets",
+                "Kids -> Boy -> Coats-and-jackets -> Lightweight",
+                "Kids -> Boy",
+                "Kids"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7181371?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7181371"
+        },
+        {
+            "product_api_id": 7270789,
+            "categories": [
+                "Kids -> Boy -> Coats-and-jackets",
+                "Kids -> Boy -> Coats-and-jackets -> Puffer-parka-quilted",
+                "Kids -> Boy",
+                "Kids"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7270789?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7270789"
+        },
+        {
+            "product_api_id": 7089105,
+            "categories": [
+                "Kids -> Boy -> Coats-and-jackets",
+                "Kids -> Boy -> Coats-and-jackets -> Lightweight",
+                "Kids -> Boy",
+                "Kids"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7089105?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7089105"
+        },
+        {
+            "product_api_id": 7250256,
+            "categories": [
+                "Kids -> Boy -> Coats-and-jackets",
+                "Kids -> Boy",
+                "Kids"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7250256?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7250256"
+        },
+        {
+            "product_api_id": 7067017,
+            "categories": [
+                "Kids -> Boy -> Coats-and-jackets",
+                "Kids -> Boy -> Coats-and-jackets -> Lightweight",
+                "Kids -> Boy",
+                "Kids"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7067017?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7067017"
+        },
+        {
+            "product_api_id": 7142607,
+            "categories": [
+                "Men -> Clothing -> Workout & gym -> Accessories",
+                "Women -> Clothing -> Activewear -> Workout accessories",
+                "Activewear -> All",
+                "Home",
+                "Activewear -> Activities",
+                "Activewear",
+                "Activewear -> Women",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7142607?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7142607"
+        },
+        {
+            "product_api_id": 6636905,
+            "categories": [
+                "Men -> Clothing -> Workout & gym -> Accessories",
+                "Women -> Clothing -> Activewear -> Workout accessories",
+                "Activewear -> All",
+                "Men -> Accessories",
+                "Activewear -> Activities",
+                "Activewear",
+                "Activewear -> Men",
+                "Men"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6636905?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6636905"
+        },
+        {
+            "product_api_id": 6653476,
+            "categories": [
+                "Men -> Clothing -> Workout & gym -> Accessories",
+                "Women -> Clothing -> Activewear -> Workout accessories",
+                "Activewear -> All",
+                "Women -> Accessories -> Hats, gloves & scarves -> Gloves",
+                "Women -> Accessories",
+                "Activewear -> Activities",
+                "Activewear",
+                "Activewear -> Women",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6653476?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6653476"
+        },
+        {
+            "product_api_id": 6162659,
+            "categories": [
+                "Men -> Clothing -> Workout & gym -> Accessories",
+                "Women -> Clothing -> Activewear -> Workout accessories",
+                "Activewear -> All",
+                "Women -> Accessories -> Hats, gloves & scarves -> Hats",
+                "Women -> Accessories -> Hats -> Baseball",
+                "Women -> Accessories",
+                "Activewear -> Activities",
+                "Activewear",
+                "Activewear -> Women",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6162659?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6162659"
+        },
+        {
+            "product_api_id": 6651839,
+            "categories": [
+                "Men -> Clothing -> Workout & gym -> Accessories",
+                "Women -> Clothing -> Activewear -> Workout accessories",
+                "Activewear -> All",
+                "Women -> Accessories",
+                "Women -> Handbags",
+                "Women -> Handbags -> Backpacks",
+                "Activewear -> Activities",
+                "Activewear",
+                "Activewear -> Women",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6651839?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6651839"
+        },
+        {
+            "product_api_id": 6447821,
+            "categories": [
+                "Men -> Clothing -> Workout & gym -> Accessories",
+                "Women -> Clothing -> Activewear -> Workout accessories",
+                "Activewear -> All",
+                "Home",
+                "Activewear -> Men",
+                "Activewear -> Activities",
+                "Activewear",
+                "Men"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6447821?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6447821"
+        },
+        {
+            "product_api_id": 5997366,
+            "categories": [
+                "Men -> Clothing -> Workout & gym -> Accessories",
+                "Women -> Clothing -> Activewear -> Workout accessories",
+                "Activewear -> All",
+                "Home",
+                "Activewear",
+                "Activewear -> Activities",
+                "Activewear -> Women",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/5997366?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=5997366"
+        },
+        {
+            "product_api_id": 7037122,
+            "categories": [
+                "Men -> Clothing -> Workout & gym -> Accessories",
+                "Women -> Clothing -> Activewear -> Workout accessories",
+                "Activewear -> All",
+                "Women -> Accessories -> Hair accessories",
+                "Women -> Accessories",
+                "Activewear",
+                "Activewear -> Activities",
+                "Activewear -> Women",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7037122?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7037122"
+        },
+        {
+            "product_api_id": 7062183,
+            "categories": [
+                "Men -> Clothing -> Workout & gym -> Accessories",
+                "Women -> Clothing -> Activewear -> Workout accessories",
+                "Activewear -> All",
+                "Home",
+                "Activewear -> Men",
+                "Activewear -> Activities",
+                "Activewear",
+                "Men"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7062183?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7062183"
+        },
+        {
+            "product_api_id": 6001012,
+            "categories": [
+                "Men -> Clothing -> Workout & gym -> Accessories",
+                "Women -> Clothing -> Activewear -> Workout accessories",
+                "Activewear -> All",
+                "Home",
+                "Activewear -> Activities",
+                "Activewear",
+                "Activewear -> Women",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6001012?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6001012"
+        },
+        {
+            "product_api_id": 7308171,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Jackets & hoodies",
+                "Activewear -> All",
+                "Activewear",
+                "Activewear -> Activities",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Tops -> Sweatshirts & hoodies",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7308171?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7308171"
+        },
+        {
+            "product_api_id": 7263981,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Jackets & hoodies",
+                "Activewear -> All",
+                "Activewear",
+                "Activewear -> Activities",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Tops -> Sweatshirts & hoodies",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7263981?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7263981"
+        },
+        {
+            "product_api_id": 6793019,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Jackets & hoodies",
+                "Activewear -> All",
+                "Activewear",
+                "Activewear -> Activities",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Tops -> Sweatshirts & hoodies",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6793019?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6793019"
+        },
+        {
+            "product_api_id": 7148168,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Jackets & hoodies",
+                "Activewear -> All",
+                "Activewear",
+                "Activewear -> Activities",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Tops -> Sweatshirts & hoodies",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7148168?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7148168"
+        },
+        {
+            "product_api_id": 7308181,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Jackets & hoodies",
+                "Activewear -> All",
+                "Activewear",
+                "Activewear -> Activities",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Tops -> Sweatshirts & hoodies",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7308181?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7308181"
+        },
+        {
+            "product_api_id": 6521770,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Jackets & hoodies",
+                "Activewear -> All",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Activities",
+                "Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Tops -> Sweatshirts & hoodies",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6521770?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6521770"
+        },
+        {
+            "product_api_id": 7173254,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Jackets & hoodies",
+                "Activewear -> All",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Activities",
+                "Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Tops -> Sweatshirts & hoodies",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7173254?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7173254"
+        },
+        {
+            "product_api_id": 7173246,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Jackets & hoodies",
+                "Activewear -> All",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Activities",
+                "Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Tops -> Sweatshirts & hoodies",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7173246?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7173246"
+        },
+        {
+            "product_api_id": 7308177,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Jackets & hoodies",
+                "Activewear -> All",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Activities",
+                "Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Tops -> Sweatshirts & hoodies",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7308177?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7308177"
+        },
+        {
+            "product_api_id": 7295489,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear -> Activities",
+                "Activewear",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing -> Bottoms",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7295489?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7295489"
+        },
+        {
+            "product_api_id": 7210184,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear -> Activities",
+                "Activewear",
+                "Women -> Clothing -> Activewear -> Capris",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing -> Bottoms",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7210184?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7210184"
+        },
+        {
+            "product_api_id": 7068318,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear -> Activities",
+                "Activewear",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing -> Bottoms",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7068318?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7068318"
+        },
+        {
+            "product_api_id": 7295484,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear -> Activities",
+                "Activewear",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing -> Bottoms",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7295484?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7295484"
+        },
+        {
+            "product_api_id": 7018491,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear -> Activities",
+                "Activewear",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing -> Bottoms",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7018491?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7018491"
+        },
+        {
+            "product_api_id": 7166125,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear -> Activities",
+                "Activewear",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing -> Bottoms",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7166125?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7166125"
+        },
+        {
+            "product_api_id": 6177460,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear -> Activities",
+                "Activewear",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing -> Bottoms",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6177460?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6177460"
+        },
+        {
+            "product_api_id": 7117749,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear -> Activities",
+                "Activewear",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing -> Bottoms",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7117749?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7117749"
+        },
+        {
+            "product_api_id": 7210207,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear -> Activities",
+                "Activewear",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing -> Bottoms",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7210207?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7210207"
+        },
+        {
+            "product_api_id": 6039874,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear",
+                "Activewear -> Activities",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing -> Bottoms",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6039874?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6039874"
+        },
+        {
+            "product_api_id": 6715214,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear",
+                "Activewear -> Activities",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Bottoms",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6715214?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6715214"
+        },
+        {
+            "product_api_id": 6464940,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear",
+                "Activewear -> Activities",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing -> Bottoms",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6464940?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6464940"
+        },
+        {
+            "product_api_id": 5916016,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear",
+                "Activewear -> Activities",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing -> Bottoms",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/5916016?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=5916016"
+        },
+        {
+            "product_api_id": 7126008,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear",
+                "Activewear -> Activities",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing -> Bottoms",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7126008?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7126008"
+        },
+        {
+            "product_api_id": 7287882,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Activewear",
+                "Activewear -> Activities",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing -> Bottoms",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7287882?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7287882"
+        },
+        {
+            "product_api_id": 7192136,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Activities",
+                "Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing -> Bottoms",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7192136?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7192136"
+        },
+        {
+            "product_api_id": 7072042,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Women -> Clothing -> Activewear -> Capris",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Activities",
+                "Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing -> Bottoms",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7072042?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7072042"
+        },
+        {
+            "product_api_id": 7263982,
+            "categories": [
+                "Women -> Clothing -> Activewear -> Leggings",
+                "Activewear -> All",
+                "Women -> Clothing -> Activewear",
+                "Activewear -> Activities",
+                "Activewear",
+                "Activewear -> Women",
+                "Women -> Clothing -> Bottoms -> Leggings",
+                "Women -> Clothing -> Bottoms",
+                "Women -> Clothing",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7263982?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7263982"
+        },
+        {
+            "product_api_id": 6415112,
+            "categories": [
+                "Kids -> Kids-shoes -> Boots-all",
+                "Kids -> Girls' shoes -> Boots & booties -> Winter & snow",
+                "Kids -> Girls' shoes",
+                "Kids -> Girls' shoes -> Boots & booties",
+                "Kids -> Kids-shoes",
+                "Kids",
+                "Shoes"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6415112?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6415112"
+        },
+        {
+            "product_api_id": 7221520,
+            "categories": [
+                "Kids -> Kids-shoes -> Boots-all",
+                "Kids -> Boys' shoes",
+                "Kids -> Boys' shoes -> Boots -> Rain & winter",
+                "Kids -> Girls' shoes -> Boots & booties -> Winter & snow",
+                "Kids -> Girls' shoes",
+                "Kids -> Girls' shoes -> Boots & booties",
+                "Kids -> Kids-shoes",
+                "Kids -> Boys' shoes -> Boots",
+                "Kids",
+                "Shoes"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7221520?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7221520"
+        },
+        {
+            "product_api_id": 7091841,
+            "categories": [
+                "Kids -> Kids-shoes -> Boots-all",
+                "Kids -> Boys' shoes",
+                "Kids -> Boys' shoes -> Boots -> Rain & winter",
+                "Kids -> Boys' shoes -> Boots -> Casual",
+                "Kids -> Girls' shoes -> Boots & booties -> Winter & snow",
+                "Kids -> Girls' shoes",
+                "Kids -> Girls' shoes -> Boots & booties",
+                "Kids -> Kids-shoes",
+                "Kids -> Boys' shoes -> Boots",
+                "Kids -> Girls' shoes -> Boots & booties -> Rain",
+                "Kids",
+                "Shoes"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7091841?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7091841"
+        },
+        {
+            "product_api_id": 7185410,
+            "categories": [
+                "Kids -> Kids-shoes -> Boots-all",
+                "Kids -> Girls' shoes",
+                "Kids -> Girls' shoes -> Boots & booties",
+                "Kids -> Kids-shoes",
+                "Kids -> Girls' shoes -> Boots & booties -> Fashion",
+                "Kids",
+                "Shoes"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7185410?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7185410"
+        },
+        {
+            "product_api_id": 7103739,
+            "categories": [
+                "Kids -> Kids-shoes -> Boots-all",
+                "Kids -> Girls' shoes",
+                "Kids -> Girls' shoes -> Boots & booties",
+                "Kids -> Kids-shoes",
+                "Kids -> Girls' shoes -> Boots & booties -> Fashion",
+                "Kids",
+                "Shoes"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7103739?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7103739"
+        },
+        {
+            "product_api_id": 7197610,
+            "categories": [
+                "Kids -> Kids-shoes -> Boots-all",
+                "Kids -> Girls' shoes -> Boots & booties -> Winter & snow",
+                "Kids -> Girls' shoes",
+                "Kids -> Girls' shoes -> Boots & booties",
+                "Kids -> Kids-shoes",
+                "Kids",
+                "Shoes"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7197610?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7197610"
+        },
+        {
+            "product_api_id": 5723217,
+            "categories": [
+                "Kids -> Kids-shoes -> Boots-all",
+                "Kids -> Girls' shoes",
+                "Kids -> Girls' shoes -> Boots & booties",
+                "Kids -> Kids-shoes",
+                "Kids -> Girls' shoes -> Boots & booties -> Fashion",
+                "Kids",
+                "Shoes"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/5723217?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=5723217"
+        },
+        {
+            "product_api_id": 5910366,
+            "categories": [
+                "Kids -> Kids-shoes -> Boots-all",
+                "Kids -> Boys' shoes",
+                "Kids -> Boys' shoes -> Boots -> Rain & winter",
+                "Kids -> Kids-shoes",
+                "Kids -> Boys' shoes -> Boots",
+                "Kids",
+                "Shoes"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/5910366?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=5910366"
+        },
+        {
+            "product_api_id": 7208829,
+            "categories": [
+                "Kids -> Kids-shoes -> Boots-all",
+                "Kids -> Girls' shoes -> Boots & booties -> Winter & snow",
+                "Kids -> Girls' shoes",
+                "Kids -> Girls' shoes -> Boots & booties",
+                "Kids -> Kids-shoes",
+                "Kids -> Girls' shoes -> Boots & booties -> Rain",
+                "Kids",
+                "Shoes"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7208829?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7208829"
+        },
+        {
+            "product_api_id": 7078088,
+            "categories": [
+                "Kids -> Kids-shoes -> Boots-all",
+                "Kids -> Girls' shoes",
+                "Kids -> Girls' shoes -> Boots & booties",
+                "Kids -> Kids-shoes",
+                "Kids -> Girls' shoes -> Boots & booties -> Fashion",
+                "Kids",
+                "Shoes"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7078088?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7078088"
+        },
+        {
+            "product_api_id": 6235148,
+            "categories": [
+                "Kids -> Kids-shoes -> Boots-all",
+                "Kids -> Girls' shoes -> Boots & booties -> Winter & snow",
+                "Kids -> Girls' shoes",
+                "Kids -> Girls' shoes -> Boots & booties",
+                "Kids -> Kids-shoes",
+                "Kids",
+                "Shoes"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6235148?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6235148"
+        },
+        {
+            "product_api_id": 7276121,
+            "categories": [
+                "Kids -> Kids-shoes -> Boots-all",
+                "Kids -> Girls' shoes -> Boots & booties -> Winter & snow",
+                "Kids -> Girls' shoes",
+                "Kids -> Girls' shoes -> Boots & booties",
+                "Kids -> Kids-shoes",
+                "Kids",
+                "Shoes"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7276121?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7276121"
+        },
+        {
+            "product_api_id": 7016822,
+            "categories": [
+                "Kids -> Kids-shoes -> Boots-all",
+                "Kids -> Girls' shoes",
+                "Kids -> Girls' shoes -> Boots & booties",
+                "Kids -> Kids-shoes",
+                "Kids -> Girls' shoes -> Boots & booties -> Fashion",
+                "Kids",
+                "Shoes"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7016822?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7016822"
+        },
+        {
+            "product_api_id": 5999794,
+            "categories": [
+                "Beauty -> Men's-grooming",
+                "Beauty -> Mens-grooming -> Skin-care",
+                "Beauty -> Tools & accessories -> Skin-care-tools",
+                "Beauty -> Mens-grooming -> Tools",
+                "Beauty -> Mens-grooming -> Body",
+                "Beauty -> Tools & accessories",
+                "Beauty -> Bath & body",
+                "Beauty -> Bath & body -> Oral care",
+                "Beauty -> Skin care",
+                "Beauty -> Skin care -> Tools & accessories",
+                "Beauty",
+                "Men",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/5999794?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=5999794"
+        },
+        {
+            "product_api_id": 5999227,
+            "categories": [
+                "Beauty -> Men's-grooming",
+                "Beauty -> Mens-grooming -> Skin-care",
+                "Beauty -> Tools & accessories -> Skin-care-tools",
+                "Beauty -> Mens-grooming -> Tools",
+                "Beauty -> Mens-grooming -> Body",
+                "Beauty -> Tools & accessories",
+                "Beauty -> Bath & body",
+                "Beauty -> Bath & body -> Oral care",
+                "Beauty -> Skin care",
+                "Beauty -> Skin care -> Tools & accessories",
+                "Beauty",
+                "Men",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/5999227?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=5999227"
+        },
+        {
+            "product_api_id": 5576398,
+            "categories": [
+                "Beauty -> Men's-grooming",
+                "Beauty -> Mens-grooming -> Skin-care",
+                "Beauty -> Skin-care -> Treatments -> Face-serums",
+                "Beauty -> Skin care",
+                "Beauty",
+                "Men",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/5576398?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=5576398"
+        },
+        {
+            "product_api_id": 7273861,
+            "categories": [
+                "Beauty -> Men's-grooming",
+                "Beauty -> Hair care",
+                "Beauty -> Hair care -> Shampoo & conditioner",
+                "Beauty",
+                "Men",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7273861?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7273861"
+        },
+        {
+            "product_api_id": 7270073,
+            "categories": [
+                "Beauty -> Men's-grooming",
+                "Beauty -> Mens-grooming -> Mens-cologne",
+                "Beauty -> Fragrance",
+                "Beauty",
+                "Men"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7270073?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7270073"
+        },
+        {
+            "product_api_id": 7273859,
+            "categories": [
+                "Beauty -> Men's-grooming",
+                "Beauty -> Hair care",
+                "Beauty -> Hair care -> Shampoo & conditioner",
+                "Beauty -> Hair-care -> Scalp-treatments",
+                "Beauty",
+                "Men",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7273859?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7273859"
+        },
+        {
+            "product_api_id": 6077851,
+            "categories": [
+                "Beauty -> Men's-grooming",
+                "Beauty -> Mens-grooming -> Skin-care",
+                "Beauty -> Skin care",
+                "Beauty",
+                "Men",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6077851?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6077851"
+        },
+        {
+            "product_api_id": 6095583,
+            "categories": [
+                "Beauty -> Men's-grooming",
+                "Beauty -> Mens-grooming -> Mens-cologne",
+                "Beauty -> Fragrance",
+                "Beauty",
+                "Men"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6095583?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6095583"
+        },
+        {
+            "product_api_id": 5443759,
+            "categories": [
+                "Beauty -> Men's-grooming",
+                "Beauty -> Mens-grooming -> Skin-care",
+                "Beauty -> Skin care",
+                "Beauty -> Skin care -> Moisturizers",
+                "Beauty",
+                "Men",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/5443759?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=5443759"
+        },
+        {
+            "product_api_id": 6871747,
+            "categories": [
+                "Beauty -> Men's-grooming",
+                "Beauty -> Mens-grooming -> Mens-cologne",
+                "Beauty -> Mens-grooming -> Cologne -> Gift-sets",
+                "Beauty -> Fragrance",
+                "Beauty",
+                "Men"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6871747?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6871747"
+        },
+        {
+            "product_api_id": 5151632,
+            "categories": [
+                "Beauty -> Men's-grooming",
+                "Beauty -> Mens-grooming -> Skin-care",
+                "Beauty -> Skin care -> Moisturizers",
+                "Beauty -> Skin care",
+                "Beauty",
+                "Men",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/5151632?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=5151632"
+        },
+        {
+            "product_api_id": 7274282,
+            "categories": [
+                "Beauty -> Men's-grooming",
+                "Beauty -> Mens-grooming -> Skin-care",
+                "Beauty -> Skin care -> Cleansers",
+                "Beauty -> Mens-grooming -> Body",
+                "Beauty -> Bath & body",
+                "Beauty -> Bath & body -> Soaps & shower gels",
+                "Beauty -> Skin care",
+                "Beauty",
+                "Men",
+                "Women"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7274282?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7274282"
+        },
+        {
+            "product_api_id": 7270071,
+            "categories": [
+                "Beauty -> Men's-grooming",
+                "Beauty -> Mens-grooming -> Mens-cologne",
+                "Beauty -> Fragrance",
+                "Beauty",
+                "Men"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/7270071?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=7270071"
+        },
+        {
+            "product_api_id": 6501479,
+            "categories": [
+                "Beauty -> Men's-grooming",
+                "Beauty -> Mens-grooming -> Skin-care",
+                "Beauty -> Skin-care -> Treatments -> Face-serums",
+                "Beauty -> Skin-care -> Face-mists",
+                "Beauty -> Skin care",
+                "Beauty",
+                "Men"
+            ],
+            "reason": "too 20 retries with <GET https://api.nordstrom.com/offer/6501479?apikey=kHeUEacPjrHY8SZXnLC8qGYSPXK0XJX5> for product_api_id=6501479"
+        }
+    ]
 }
