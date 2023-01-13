@@ -162,7 +162,8 @@ class CustomRetryMiddleware(RetryMiddleware):
                         print(f'changed poxy for {product_api_id=} because there was {current_retries} fails out of {allowed_retries}')
                     if current_retries >= allowed_retries:
                         print(f"too many retries with {request} for {product_api_id=}")
-                        spider.failed_urls.append(f'too many retries with {request} for {product_api_id=}')
+                        spider.failed_urls.append({"product_api_id": product_api_id,
+                                                   "reason": f'too {current_retries} retries with {request} for {product_api_id=}'})
                         return Response(url=request.url, status=9999, body=b'too many retries')
 
                 return self._retry(request, "error 429", spider)

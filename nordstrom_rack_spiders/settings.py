@@ -9,7 +9,7 @@
 
 BOT_NAME = 'nordstrom_rack_spiders'
 LOG_LEVEL='INFO'
-LOG_LEVEL='WARNING'
+# LOG_LEVEL='WARNING'
 # RETRY_HTTP_CODES = [429]
 
 SPIDER_MODULES = ['nordstrom_rack_spiders.spiders']

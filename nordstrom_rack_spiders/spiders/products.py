@@ -14,8 +14,15 @@ class ProductsSpider(scrapy.Spider):
     # https://github.com/aivarsk/scrapy-proxies
     # https://github.com/TeamHG-Memex/scrapy-rotating-proxies
     # https://stackoverflow.com/questions/13724730/how-to-get-the-scrapy-failure-urls
-    name = "products"
+    def __init__(self,mode, filename=None, *args, **kwargs):
+        super(ProductsSpider, self).__init__(*args, **kwargs)
+        self.mode = mode
+        if mode == "full" and filename is None:
+            raise ValueError("must specify mapping with `-a filename=file.json`")
+        else:
+            self.filename = filename
 
+    name = "products"
     api_product_offer_url = "https://api.nordstrom.com/offer"
     limit_urls = 1
 
@@ -29,16 +36,17 @@ class ProductsSpider(scrapy.Spider):
     }
 
     def start_requests(self):
-        with open('category.json', 'r') as file:
-            data = json.loads(file.read())
+        if self.mode == 'full':
+            with open(self.filename, 'r') as file:
+                data = json.loads(file.read())
 
-        return_dict = {}
-        for product in data:
-            if product['product_id'] in return_dict.keys():
-                return_dict[product['product_id']]['product_categories'].append(product['product_category'])
+            return_dict = {}
+            for product in data:
+                if product['product_id'] in return_dict.keys():
+                    return_dict[product['product_id']]['product_categories'].append(product['product_category'])
 
-            else:
-                return_dict[product['product_id']] = {'product_categories': [product['product_category']]}
+                else:
+                    return_dict[product['product_id']] = {'product_categories': [product['product_category']]}
 
         for index, (product_api_id, values) in enumerate(return_dict.items()):
 
