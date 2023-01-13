@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 from scrapy.exceptions import CloseSpider
 from scrapy.http import Response
 
-from proxy_manager import proxies_generator
+from generators import proxies_generator
 
 class CategoriesSpider(scrapy.Spider):
     name = "categories"  # Spider name to run from CLI and middleware

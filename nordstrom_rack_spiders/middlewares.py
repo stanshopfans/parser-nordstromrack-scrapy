@@ -9,8 +9,8 @@ from scrapy import signals
 from itemadapter import is_item, ItemAdapter
 from scrapy.http import Response, Request
 
-from proxy_manager import proxies_generator
-from token_manager import tokens_generator
+from generators import proxies_generator, tokens_generator
+
 
 
 class NordstromRackSpidersSpiderMiddleware:
@@ -163,6 +163,7 @@ class CustomRetryMiddleware(RetryMiddleware):
                     if current_retries >= allowed_retries:
                         print(f"too many retries with {request} for {product_api_id=}")
                         spider.failed_urls.append({"product_api_id": product_api_id,
+                                                   "categories": request.meta['categories'],
                                                    "reason": f'too {current_retries} retries with {request} for {product_api_id=}'})
                         return Response(url=request.url, status=9999, body=b'too many retries')
 

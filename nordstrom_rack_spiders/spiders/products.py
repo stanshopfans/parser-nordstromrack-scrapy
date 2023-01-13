@@ -6,15 +6,16 @@ from requests import PreparedRequest
 from scrapy.http import Response
 
 from schemas import NordstromRackData
-from token_manager import tokens_generator
-from proxy_manager import proxies_generator
+from settings import settings
+from generators import tokens_generator, proxies_generator
+
 
 class ProductsSpider(scrapy.Spider):
     # https://stackoverflow.com/questions/41404281/how-to-retry-the-request-n-times-when-an-item-gets-an-empty-field
     # https://github.com/aivarsk/scrapy-proxies
     # https://github.com/TeamHG-Memex/scrapy-rotating-proxies
     # https://stackoverflow.com/questions/13724730/how-to-get-the-scrapy-failure-urls
-    def __init__(self,mode, filename=None, *args, **kwargs):
+    def __init__(self, mode, filename=None, *args, **kwargs):
         super(ProductsSpider, self).__init__(*args, **kwargs)
         self.mode = mode
         if mode == "full" and filename is None:
@@ -25,7 +26,6 @@ class ProductsSpider(scrapy.Spider):
     name = "products"
     api_product_offer_url = "https://api.nordstrom.com/offer"
     limit_urls = 1
-
 
     handle_httpstatus_list = [429, 9999]
     failed_urls = []
@@ -48,6 +48,19 @@ class ProductsSpider(scrapy.Spider):
                 else:
                     return_dict[product['product_id']] = {'product_categories': [product['product_category']]}
 
+        elif self.mode == 'partial':
+            return_dict = settings
+
+        elif self.mode == 'cleanup':
+            with open('logs.json', 'r') as file:
+                data = json.loads(file.read())
+
+            return_dict = {}
+            for item in data['failed_urls']:
+                return_dict[item['product_api_id']] = {'product_categories': item['categories']}
+
+        else:
+            raise ValueError('full or partial')
         for index, (product_api_id, values) in enumerate(return_dict.items()):
 
             if index == self.limit_urls:
@@ -89,7 +102,6 @@ class ProductsSpider(scrapy.Spider):
         if response.status == 200:
             data = json.loads(response.text)
             current_meta = response.meta
-
 
             data = NordstromRackData(api_data=data,
                                      product_api_id=current_meta['product_api_id'],
