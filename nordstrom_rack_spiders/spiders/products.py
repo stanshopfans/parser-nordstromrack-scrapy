@@ -15,9 +15,11 @@ class ProductsSpider(scrapy.Spider):
     # https://github.com/aivarsk/scrapy-proxies
     # https://github.com/TeamHG-Memex/scrapy-rotating-proxies
     # https://stackoverflow.com/questions/13724730/how-to-get-the-scrapy-failure-urls
-    def __init__(self, mode, filename=None, *args, **kwargs):
+    def __init__(self, mode, output_file, filename=None, *args, **kwargs):
         super(ProductsSpider, self).__init__(*args, **kwargs)
         self.mode = mode
+        self.output_file = output_file
+        output_file = output_file
         if mode == "full" and filename is None:
             raise ValueError("must specify mapping with `-a filename=file.json`")
         else:
@@ -30,12 +32,24 @@ class ProductsSpider(scrapy.Spider):
     handle_httpstatus_list = [429, 9999]
     failed_urls = []
     time_start = time.time()
+    total_requests = 0
+    last_scraped_item = None
 
+    # https://stackoverflow.com/questions/41871605/how-to-pass-arguments-for-feed-uri-to-scrapy-spiders-instane-for-dynamically
     custom_settings = {
         'RETRY_TIMES': 20,
+        'FEED_URI': '%(output_file)s',
+        'FEED_FORMAT': 'jsonlines',
+        'FEED_EXPORTERS': {
+            'json': 'scrapy.exporters.JsonItemExporter',
+        },
+        'FEED_EXPORT_ENCODING': 'utf-8',
     }
 
     def start_requests(self):
+        with open(self.output_file, 'r') as file:
+            text = file.read()
+
         if self.mode == 'full':
             with open(self.filename, 'r') as file:
                 data = json.loads(file.read())
@@ -61,10 +75,15 @@ class ProductsSpider(scrapy.Spider):
 
         else:
             raise ValueError('full or partial')
+
         for index, (product_api_id, values) in enumerate(return_dict.items()):
 
             if index == self.limit_urls:
                 break
+
+            if f'{product_api_id}' in text:
+                print(f"skipping {product_api_id}")
+                continue
 
             token = next(tokens_generator)
             headers = {
@@ -93,12 +112,12 @@ class ProductsSpider(scrapy.Spider):
             request.meta['product_api_id'] = product_api_id
             request.meta['categories'] = values['product_categories']
 
-            # print(request.__dict__)
-            # print(url)
             yield request
 
     def parse(self, response: Response):
-        # print(response.meta)
+        # # How many concurrent requests
+        # print(len(self.crawler.engine.slot.inprogress))
+        # print(self.crawler.engine.scheduler_cls.has_pending_requests(self.crawler.engine.slot.scheduler))
         if response.status == 200:
             data = json.loads(response.text)
             current_meta = response.meta
@@ -106,9 +125,13 @@ class ProductsSpider(scrapy.Spider):
             data = NordstromRackData(api_data=data,
                                      product_api_id=current_meta['product_api_id'],
                                      categories=current_meta['categories'])
+
+            self.last_scraped_item = current_meta['product_api_id']
             yield {'product_id': response.meta['product_api_id'],
                    'retries': response.meta.get('retry_times', 0),
                    'data': data.dict()}
+
+            data.upload_to_us_mall()
 
         else:
             print("weird error")
@@ -117,10 +140,13 @@ class ProductsSpider(scrapy.Spider):
         # will be called when the crawler process ends
         # any code
         # do something with collected data
-
+        print("dumping stats")
+        print(self.crawler.stats.get_stats())
         time_end = time.time()
 
         with open('logs.json', 'w+') as file:
             data = {'total_time': time_end - self.time_start,
+                    'last_scraped_item': self.last_scraped_item,
+                    'stats': self.crawler.stats.get_stats(),
                     'failed_urls': self.failed_urls}
-            file.write(json.dumps(data, indent=4))
+            file.write(json.dumps(data, indent=4, default=str))

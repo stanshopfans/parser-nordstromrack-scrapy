@@ -1,3 +1,4 @@
+import requests
 from pydantic import BaseModel, validator, Field
 from typing import Optional, Dict, Any, List
 from .nordstrom_rack_variant_schema import NordstromRackVariantData
@@ -80,3 +81,21 @@ class NordstromRackData(BaseModel):
     def return_gender(cls, v, values):
         v = values['api_data'].get('productAttributes', {}).get('gender', 'No gender').lower()
         return v
+
+
+    def upload_to_us_mall(self):
+        url = "https://app.usmall.ru/api/product-external"
+
+        payload = {'json_data': self.json(),
+                   'market_id': f'{self.market_id}',
+                   'remote_code': f'{self.remote_code}'}
+
+        headers = {
+            'product-external-key': 'f5970c35eff4f296e2dfb9162df4102c'
+        }
+
+        response = requests.post(url,
+                                 headers=headers,
+                                 data=payload)
+
+        print(response.text)

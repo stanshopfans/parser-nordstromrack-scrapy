@@ -2,6 +2,9 @@
 #
 # See documentation in:
 # https://docs.scrapy.org/en/latest/topics/spider-middleware.html
+import asyncio
+import datetime
+import time
 
 from scrapy import signals
 
@@ -114,6 +117,16 @@ from scrapy.utils.response import response_status_message
 class CustomRetryMiddleware(RetryMiddleware):
 
     def process_response(self, request, response, spider):
+
+        spider.total_requests += 1
+        print("total_requests")
+        print(spider.total_requests)
+        if spider.total_requests >= 2000:
+            print(f'sleeping for 1 hour, time now:')
+            print(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+
+            time.sleep(60*65)
+            spider.total_requests = 0
 
         # if request.meta.get('dont_retry', False):
         #     return response
